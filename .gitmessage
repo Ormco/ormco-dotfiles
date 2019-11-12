@@ -1,0 +1,7 @@
+
+# Structure (50/72):
+# >> Subject (50):  <type>(<scope>): <subject>
+# >> ... Empty line ...
+# >> Body of git message (72-75)
+# >> Footer: References: #1, #4, and #2 || Fix: #1 || Closes: #1 and #2
+# >> Footer: Links: https://github.com/ormcornd/ormco-dotfiles/issues/XXX

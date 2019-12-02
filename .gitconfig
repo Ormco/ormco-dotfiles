@@ -1,6 +1,5 @@
 [include]
     path = ~/.git.d/aliases.ini
-    path = ~/.git.d/branching.ini
     path = ~/.git.d/colors.ini
     path = ~/.git.d/core.ini
     path = ~/.git.d/diff.ini

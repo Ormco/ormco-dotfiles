@@ -71,9 +71,9 @@ bash_prompt() {
 	case $PROMPT in
 		COMPLEX)
 			if [ $ENVRM == "PRODUCTION" ]; then
-				PS1="${R}[${BY}\${?}${R}] [ ${B}\w ${R}] ${C}\$(__git_prompt) ${M}\$(prompt_rvm) ${C}$SSHPRPT$BC \n$R\t \u (at) \H ${ZZ}\$ "
+				PS1="${R}[${BY}\${?}${R}] [ ${B}\w ${R}] ${C}\$(__git_prompt) ${M}\$(prompt_rvm) ${C}$SSHPRPT$BC \012$R\t \u (at) \H ${ZZ}\$ "
 			else
-				PS1="${G}[${BY}\${?}${G}] [ ${B}\w ${G}] ${C}\$(__git_prompt) ${M}\$(prompt_rvm) ${C}$SSHPRPT$BC \n$G\t \u (at) \H ${ZZ}\$ "
+				PS1="${G}[${BY}\${?}${G}] [ ${B}\w ${G}] ${C}\$(__git_prompt) ${M}\$(prompt_rvm) ${C}$SSHPRPT$BC \012$G\t \u (at) \H ${ZZ}\$ "
 			fi
 			;;
 		SIMPLE)
